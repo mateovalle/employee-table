@@ -8,7 +8,7 @@ const accountKeys = [
   'calUsers',
 ] as const;
 
-const getConnectedAccounts = (employee: Employee): string[] => {
+export const getConnectedAccounts = (employee: Employee): string[] => {
   const sources: string[] = [];
   accountKeys.forEach(accountType => {
     employee.identity[accountType].forEach((account: any) => {

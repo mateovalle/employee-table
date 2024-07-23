@@ -19,11 +19,8 @@ function App() {
   const {searchValue, setSearchValue, activeFilters, filters} = useEmployeeTableStore();
   const employees: Employee[] = employeesJson.data.employees;
 
-  console.log(employees.map(employee => employee.teams.map(team => team.team.name)).flat().filter((team, index, self) => self.indexOf(team) === index).flat())
-
   const filteredEmployees = useMemo(() => {
     const employeeRows = employees.map((employee) => (employeeRow(employee)))
-
     return applyFilters(employeeRows,
     [
       nameFilter(searchValue),
