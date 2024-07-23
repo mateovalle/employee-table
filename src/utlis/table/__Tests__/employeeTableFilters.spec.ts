@@ -1,6 +1,5 @@
 import { filterByTrackingStatus } from '../employeeTableFilters';
 import {EmployeeRowData} from "../../../components/EmployeeTable/EmployeeRow";
-import {Team} from "../../../types/Employee";
 
 describe('filterByTrackingStatus', () => {
   const employees: EmployeeRowData[] = [
