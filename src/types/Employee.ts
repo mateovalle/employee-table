@@ -3,7 +3,7 @@ import {CalUser, ImsUser, TmsUser, VcsUser} from "./User";
 export type Employee = {
   id:       string;
   uid:      string;
-  inactive: null;
+  inactive: boolean | null;
   identity: EmployeeIdentity;
   teams:    TeamResponse[];
 }

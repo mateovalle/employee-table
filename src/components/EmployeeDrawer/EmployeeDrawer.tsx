@@ -31,7 +31,7 @@ const EmployeeDrawer = () => {
             </Tooltip>
           </Box>
           {
-            selectedEmployee?.trackingStatus && (
+            selectedEmployee?.trackingStatus === 'Active' && (
             <Box bgcolor={"#C4E0B1"} borderRadius={"4px"} border={"1px solid #E2E8F0"} display={"flex"} gap={2} paddingY={1} paddingX={2}>
               <PersonIcon color={"success"}/>
               <Typography fontFamily={"Lato"} variant={"body2"} color={"#105E1D"}>Included - Active</Typography>

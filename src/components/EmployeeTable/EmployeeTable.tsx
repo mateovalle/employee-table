@@ -8,7 +8,7 @@ import {
   TableContainer,
   TableHead,
   TablePagination,
-  TableRow
+  TableRow, Typography
 } from "@mui/material";
 import EmployeeRow, {EmployeeRowData} from "./EmployeeRow";
 
@@ -51,14 +51,16 @@ const EmployeeTable = ({employees}: EmployeeTableProps) => {
       <Paper>
         <TableContainer>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
-            <TableHead>
+            <TableHead sx={{backgroundColor: "#F2F3F7"}} >
               <TableRow>
                 {columns.map((column) => (
                   <TableCell
                     key={column.id}
                     style={{ minWidth: column.minWidth }}
                   >
-                    {column.label}
+                    <Typography color={"#072E45"} fontSize={14} fontWeight={600} fontFamily={"Lato"}>
+                      {column.label}
+                    </Typography>
                   </TableCell>
                 ))}
               </TableRow>

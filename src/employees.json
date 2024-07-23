@@ -63,7 +63,7 @@
               "id": "897f3765604b671d14d3613c7eed63f96145f6bd",
               "uid": "spreadsheets",
               "name": "Spreadsheets",
-              "color": null
+              "color": "#e9cc0d"
             }
           }
         ]
@@ -95,7 +95,7 @@
                 "__typename": "tms_User",
                 "id": "51b499bb7402c929be5a67da5fcf97214da1ad52",
                 "uid": "albus",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "albus" }
             }
@@ -129,7 +129,7 @@
               "id": "897f3765604b671d14d3613c7eed63f96145f6bd",
               "uid": "spreadsheets",
               "name": "Spreadsheets",
-              "color": null
+              "color": "#e9cc0d"
             }
           }
         ]
@@ -137,7 +137,7 @@
       {
         "id": "46fb4078edc0277c7e83ff23d65ebae2a09f7644",
         "uid": "arthur",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "2228d83cc21abaee6c981ca3980a6c545e0eab60",
           "uid": "arthur",
@@ -161,7 +161,7 @@
                 "__typename": "tms_User",
                 "id": "172f9999757c7b9e4f9683af3bee8c19b394a1d3",
                 "uid": "arthur",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "arthur" }
             }
@@ -173,7 +173,7 @@
                 "__typename": "cal_User",
                 "id": "46a5ca526e2e42bc3f542dad5c5a7eb4bdef01a9",
                 "uid": "arthur",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "arthur" }
             }
@@ -186,7 +186,7 @@
               "id": "897f3765604b671d14d3613c7eed63f96145f6bd",
               "uid": "spreadsheets",
               "name": "Spreadsheets",
-              "color": null
+              "color": "#e9cc0d"
             }
           }
         ]
@@ -194,7 +194,7 @@
       {
         "id": "5297689246f5a8878d27224d61d708676be17920",
         "uid": "bellatrix",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "1cc0b7767495bf5e32b37c864aa8b4c8cb48f501",
           "uid": "bellatrix",
@@ -422,7 +422,7 @@
       {
         "id": "eb641b7c2385b6ad6a062f9497c67f0b518897f4",
         "uid": "cornelius",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "4c61fa5864ac4bae79443781010ef987a91ef912",
           "uid": "cornelius",
@@ -458,7 +458,7 @@
                 "__typename": "cal_User",
                 "id": "513bc4442a0c6c6dd6ad234c05ca09fc2a7c4396",
                 "uid": "cornelius",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "cornelius" }
             }
@@ -585,7 +585,7 @@
               "id": "b0733008074b5fb65385d594b1f9d204f6abd00c",
               "uid": "browser",
               "name": "Browser",
-              "color": null
+              "color": "#0de948"
             }
           }
         ]
@@ -593,7 +593,7 @@
       {
         "id": "5dba294b855f836d519640164c435b4ab8550d04",
         "uid": "draco",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "24e49e5596a07a70867da92911c6beef7695f419",
           "uid": "draco",
@@ -617,7 +617,7 @@
                 "__typename": "tms_User",
                 "id": "4e3d7ebf239effd1af78a97270917015b981950d",
                 "uid": "draco",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "draco" }
             }
@@ -642,7 +642,7 @@
               "id": "5dfbca946df818cfd17dae1238e606d235e6333e",
               "uid": "crm",
               "name": "CRM",
-              "color": null
+              "color": "#0db2e9"
             }
           }
         ]
@@ -699,7 +699,7 @@
               "id": "add364f4cc10c5c3cb5bd27bc07b76ae02948ec4",
               "uid": "productivity",
               "name": "Productivity",
-              "color": null
+              "color": "#0db2e9"
             }
           }
         ]
@@ -743,7 +743,7 @@
                 "__typename": "cal_User",
                 "id": "1efdf37d9fe9ac0a6ab212a3f251502d3d609e8d",
                 "uid": "elphias",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "elphias" }
             }
@@ -764,7 +764,7 @@
       {
         "id": "a6bbd7b6a57d3f92412b18d50b2fbfe15bade9c6",
         "uid": "filius",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "3cffe6387d175cb2be15b70001d94950c6452764",
           "uid": "filius",
@@ -870,7 +870,7 @@
               "id": "b0733008074b5fb65385d594b1f9d204f6abd00c",
               "uid": "browser",
               "name": "Browser",
-              "color": null
+              "color": "#0de948"
             }
           }
         ]
@@ -878,7 +878,7 @@
       {
         "id": "55bebc8cee8add64b8dd5662ccc77e558db226fa",
         "uid": "fred",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "40ad366c4d834a52df19da4cc9d43f9e9cc3fb62",
           "uid": "fred",
@@ -902,7 +902,7 @@
                 "__typename": "tms_User",
                 "id": "10c2e6a7732e82b6777fcefea2e515c35a440b9e",
                 "uid": "fred",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "fred" }
             }
@@ -927,7 +927,7 @@
               "id": "140fdb7bc20b003236272c74aa87e487dced0a62",
               "uid": "chat",
               "name": "Chat",
-              "color": null
+              "color": "#950de9"
             }
           }
         ]
@@ -935,7 +935,7 @@
       {
         "id": "c489da15efd1cb90775e0eca2d1a49b7b18c7b95",
         "uid": "george",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "9b86932088f405475656f205e3ae2cf75f349ce1",
           "uid": "george",
@@ -971,7 +971,7 @@
                 "__typename": "cal_User",
                 "id": "8a4c7d134ed981f3aa8f15f725a7311cf0a0ac5c",
                 "uid": "george",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "george" }
             }
@@ -1016,7 +1016,7 @@
                 "__typename": "tms_User",
                 "id": "637995fe844f4b54ebefb6cf70b33bcfa22ccbd6",
                 "uid": "gilderoy",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "gilderoy" }
             }
@@ -1266,7 +1266,7 @@
                 "__typename": "cal_User",
                 "id": "2db3d65c99661bced4d43826c14fdca5065ca97f",
                 "uid": "helga",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "helga" }
             }
@@ -1380,7 +1380,7 @@
                 "__typename": "cal_User",
                 "id": "bb0fc31d75a0465cfd8fdc1fdcdff6d21b63e46b",
                 "uid": "horace",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "horace" }
             }
@@ -1401,7 +1401,7 @@
       {
         "id": "7abbaccc19d662c1dfcdda3ae287e0cd21ce76c6",
         "uid": "igor",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "8514870f810f22afed00268c7c08dc719fdedc2c",
           "uid": "igor",
@@ -1425,7 +1425,7 @@
                 "__typename": "tms_User",
                 "id": "b1de29f1cee67e8602b04b7bad3b45d0d744679b",
                 "uid": "igor",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "igor" }
             }
@@ -1437,7 +1437,7 @@
                 "__typename": "cal_User",
                 "id": "8f542399fc4c7464eaeb847c431819fec1385467",
                 "uid": "igor",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "igor" }
             }
@@ -1458,7 +1458,7 @@
       {
         "id": "0e355fb431c936c40a03d4c063f44fe31f2c174c",
         "uid": "irma",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "261f3858084b0d617b29f9fc8ae30b8e0843d71c",
           "uid": "irma",
@@ -1482,7 +1482,7 @@
                 "__typename": "tms_User",
                 "id": "bb46af9e8e9713ecc5387eb15e33c936355c373f",
                 "uid": "irma",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "irma" }
             }
@@ -1494,7 +1494,7 @@
                 "__typename": "cal_User",
                 "id": "962a3196ac6fea13b09b3c7bad354d9ccaf03f29",
                 "uid": "irma",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "irma" }
             }
@@ -1539,7 +1539,7 @@
                 "__typename": "tms_User",
                 "id": "0bd515b644a723f3836a7d345d1e6b26761e59a8",
                 "uid": "katie",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "katie" }
             }
@@ -1621,7 +1621,7 @@
               "id": "140fdb7bc20b003236272c74aa87e487dced0a62",
               "uid": "chat",
               "name": "Chat",
-              "color": null
+              "color": "#950de9"
             }
           }
         ]
@@ -1653,7 +1653,7 @@
                 "__typename": "tms_User",
                 "id": "cc50f85fc7cd9de4862ce1024dae413e6c573d0b",
                 "uid": "lucius",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "lucius" }
             }
@@ -1665,7 +1665,7 @@
                 "__typename": "cal_User",
                 "id": "144b0c6dceae37c6405d5f1b439bc33b3afdf56e",
                 "uid": "lucius",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "lucius" }
             }
@@ -1686,7 +1686,7 @@
       {
         "id": "fd420fe71cd628c3e9a31facba6804d58b8d8071",
         "uid": "luna",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "df93d396aefa73cc19568ccbf904ab9c7e3cc6c6",
           "uid": "luna",
@@ -1722,7 +1722,7 @@
                 "__typename": "cal_User",
                 "id": "f7d4c3775f572c09586b41fa5c5c11cadf91bd20",
                 "uid": "luna",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "luna" }
             }
@@ -1743,7 +1743,7 @@
       {
         "id": "07ba77dc732861e50039969badaa9574e4eba0f3",
         "uid": "minerva",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "f387b73ddf34f0c1d80b0aa6757f9d8d7e337bab",
           "uid": "minerva",
@@ -1767,7 +1767,7 @@
                 "__typename": "tms_User",
                 "id": "8160dc20c3db228984389c3a0090787288515b50",
                 "uid": "minerva",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "minerva" }
             }
@@ -1893,7 +1893,7 @@
                 "__typename": "cal_User",
                 "id": "dd27599d566279a4aefc813203ef5c0f717ddc04",
                 "uid": "neville",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "neville" }
             }
@@ -1938,7 +1938,7 @@
                 "__typename": "tms_User",
                 "id": "ac6686bf13d4783861ef46d118a5676b27bb87db",
                 "uid": "nymphadora",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "nymphadora" }
             }
@@ -2020,7 +2020,7 @@
               "id": "140fdb7bc20b003236272c74aa87e487dced0a62",
               "uid": "chat",
               "name": "Chat",
-              "color": null
+              "color": "#950de9"
             }
           }
         ]
@@ -2064,7 +2064,7 @@
                 "__typename": "cal_User",
                 "id": "34ffa72174485fb0ccc4d29eb48f3170772dd1f4",
                 "uid": "parvati",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "parvati" }
             }
@@ -2109,7 +2109,7 @@
                 "__typename": "tms_User",
                 "id": "bf7f9927686b21d74fd7d72162990179ae2ef250",
                 "uid": "percy",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "percy" }
             }
@@ -2121,7 +2121,7 @@
                 "__typename": "cal_User",
                 "id": "bc072d794b38c3f5897bd91253ce81f2ff823e30",
                 "uid": "percy",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "percy" }
             }
@@ -2166,7 +2166,7 @@
                 "__typename": "tms_User",
                 "id": "825c94bc39d62fe8c7fa79f7743fe9a62d5711fd",
                 "uid": "peter",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "peter" }
             }
@@ -2191,7 +2191,7 @@
               "id": "140fdb7bc20b003236272c74aa87e487dced0a62",
               "uid": "chat",
               "name": "Chat",
-              "color": null
+              "color": "#950de9"
             }
           }
         ]
@@ -2199,7 +2199,7 @@
       {
         "id": "7cd1c1f181d03a8283b2efb55f253369020579f7",
         "uid": "petunia",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "d41b4b9873b13d477caab29e9b0a31ffac23b328",
           "uid": "petunia",
@@ -2256,7 +2256,7 @@
       {
         "id": "5cb8c4094edacfd8bef1ae8698061cc739a812ee",
         "uid": "pomona",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "17e13be2f5cd25e6622119846d605a6b45d7406b",
           "uid": "pomona",
@@ -2292,7 +2292,7 @@
                 "__typename": "cal_User",
                 "id": "f06042e867d166b4331ae402ca2d43e79e3738ac",
                 "uid": "pomona",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "pomona" }
             }
@@ -2305,7 +2305,7 @@
               "id": "b0733008074b5fb65385d594b1f9d204f6abd00c",
               "uid": "browser",
               "name": "Browser",
-              "color": null
+              "color": "#0de948"
             }
           }
         ]
@@ -2313,7 +2313,7 @@
       {
         "id": "13ffe15cfc8f2f9b16017da0c62ec18e0f2da4fd",
         "uid": "remus",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "7a613d704175d257cf7aae857eb2148c7f7b44d5",
           "uid": "remus",
@@ -2337,7 +2337,7 @@
                 "__typename": "tms_User",
                 "id": "ae15d51da41ea7cfa262fc10bdc7226e857785b7",
                 "uid": "remus",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "remus" }
             }
@@ -2349,7 +2349,7 @@
                 "__typename": "cal_User",
                 "id": "b6debdb0c97c89d7d03b4b673c4afb2c0fcce888",
                 "uid": "remus",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "remus" }
             }
@@ -2362,7 +2362,7 @@
               "id": "897f3765604b671d14d3613c7eed63f96145f6bd",
               "uid": "spreadsheets",
               "name": "Spreadsheets",
-              "color": null
+              "color": "#e9cc0d"
             }
           }
         ]
@@ -2394,7 +2394,7 @@
                 "__typename": "tms_User",
                 "id": "46b3bf8d50a4b15f5f543989b5b69c3dfe4eac0e",
                 "uid": "rita",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "rita" }
             }
@@ -2484,7 +2484,7 @@
       {
         "id": "82cf073937e8df43dbc8a4d18641cd9a1409a0a3",
         "uid": "rubeus",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "2020e818dbe412caf9c1d31911e5d27d0c4a4b60",
           "uid": "rubeus",
@@ -2590,7 +2590,7 @@
               "id": "897f3765604b671d14d3613c7eed63f96145f6bd",
               "uid": "spreadsheets",
               "name": "Spreadsheets",
-              "color": null
+              "color": "#e9cc0d"
             }
           }
         ]
@@ -2598,7 +2598,7 @@
       {
         "id": "fdb7a227a46b015d8bbeae78fa0ef246c469eb29",
         "uid": "severus",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "cf0e5db1c71519bf0f8f0696e2318640dac2a070",
           "uid": "severus",
@@ -2622,7 +2622,7 @@
                 "__typename": "tms_User",
                 "id": "e723e0f4224fc419a4b70fad29c83f34bee05beb",
                 "uid": "severus",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "severus" }
             }
@@ -2655,7 +2655,7 @@
       {
         "id": "5e370a1c3abe57f0e6ad7fe22d11822deafd6816",
         "uid": "sirius",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "4881119ecffebe237438f333aebb2224b249e054",
           "uid": "sirius",
@@ -2679,7 +2679,7 @@
                 "__typename": "tms_User",
                 "id": "058d11d79cf26c047e87a17f5985036efb803933",
                 "uid": "sirius",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "sirius" }
             }
@@ -2691,7 +2691,7 @@
                 "__typename": "cal_User",
                 "id": "18929e8df3bc10b65fa2792c366bde68b36d2625",
                 "uid": "sirius",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "sirius" }
             }
@@ -2736,7 +2736,7 @@
                 "__typename": "tms_User",
                 "id": "c0facd861e4e5ac59e491995f6e4eee26d0ad889",
                 "uid": "susan",
-                "source": "Mock"
+                "source":  "Jira"
               },
               "identity": { "uid": "susan" }
             }
@@ -2748,7 +2748,7 @@
                 "__typename": "cal_User",
                 "id": "2c458ba2d79dfd0ab6db8c13e50175701138e968",
                 "uid": "susan",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "susan" }
             }
@@ -2907,7 +2907,7 @@
                 "__typename": "tms_User",
                 "id": "d88ab45f5a2e0e5eddc7b12ce327ec923d675fcb",
                 "uid": "viktor",
-                "source": "Mock"
+                "source":  "pagerduty"
               },
               "identity": { "uid": "viktor" }
             }
@@ -2919,7 +2919,7 @@
                 "__typename": "cal_User",
                 "id": "a0250f33b0a1eefc454416102d51070bbf2046d2",
                 "uid": "viktor",
-                "source": "Mock"
+                "source":  "google-calendar"
               },
               "identity": { "uid": "viktor" }
             }
@@ -2940,7 +2940,7 @@
       {
         "id": "d8a18f25dc14a68e9f6a6bee3dcbe3ff60d638d5",
         "uid": "vincent",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "267c9955220fb23cf6d10e535a88f3a371dcc89f",
           "uid": "vincent",
