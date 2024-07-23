@@ -1,5 +1,5 @@
 import React, {ReactNode} from 'react';
-import {Box, Button, Icon, TableCell, TableRow, Typography} from "@mui/material";
+import {Box, Button, TableCell, TableRow, Typography} from "@mui/material";
 import { Team} from "../../types/Employee";
 import githubIcon from '../../assets/icons/github.png'
 import jiraIcon from '../../assets/icons/jira.png';

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Box, Button, Menu, MenuItem, Typography, Checkbox, Chip} from "@mui/material";
+import {Box, Button, Menu, MenuItem, Checkbox} from "@mui/material";
 import AddIcon from '@mui/icons-material/Add';
 import {EmployeeTableFiltersEnum, useEmployeeTableStore} from "../../../hooks/employeeTable/useEmployeeTableStore";
 import FilterChip from "./FilterChip";
@@ -47,7 +47,7 @@ const AddFilterButton = () => {
       <Menu open={!!anchorElFiltersMenu} onClose={() => {setAnchorElFiltersMenu(null)}} anchorEl={anchorElFiltersMenu}>
         {filters.map(filter => (
           <MenuItem
-            onClick={(prev) => toggleFilter(filter.key)}
+            onClick={() => toggleFilter(filter.key)}
             selected={activeFilters.includes(filter.key)}
           >
             <Checkbox checked={activeFilters.includes(filter.key)} />

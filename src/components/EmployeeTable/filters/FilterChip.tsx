@@ -32,7 +32,7 @@ const FilterChip = ({filterType, options, label}: ActiveFilterProps) => {
       <Menu sx={{maxHeight: 400}} open={!!anchorEl} onClose={() =>setAnchorEl(null)} anchorEl={anchorEl}>
         {options.map(option => (
           <MenuItem
-            onClick={(prev) => toggleOption(option)}
+            onClick={() => toggleOption(option)}
             selected={filters[filterType].includes(option)}
           >
             <Checkbox checked={filters[filterType].includes(option)} />

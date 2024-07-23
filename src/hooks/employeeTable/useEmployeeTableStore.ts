@@ -1,5 +1,4 @@
 import { create } from 'zustand'
-import {Employee} from "../../types/Employee";
 import {EmployeeRowData} from "../../components/EmployeeTable/EmployeeRow";
 
 export enum EmployeeTableFiltersEnum {

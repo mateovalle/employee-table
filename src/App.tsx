@@ -4,7 +4,7 @@ import EmployeeTable from "./components/EmployeeTable/EmployeeTable";
 import employeesJson from './employees.json';
 import {Box, InputAdornment, TextField} from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
-import {EmployeeTableFiltersEnum, useEmployeeTableStore} from "./hooks/employeeTable/useEmployeeTableStore";
+import { useEmployeeTableStore} from "./hooks/employeeTable/useEmployeeTableStore";
 import AddFilterButton from "./components/EmployeeTable/filters/AddFilterButton";
 import {applyFilters} from "./utlis/filters/applyFilters";
 import {Employee} from "./types/Employee";
